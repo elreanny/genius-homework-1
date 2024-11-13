@@ -1,0 +1,110 @@
+/* @font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v32-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/roboto-v32-cyrillic_latin-500.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v32-cyrillic_latin-700.woff2') format('woff2');
+} */
+:root {
+	--color-pripary-dark: #011c44;
+	--color-pripary-light: #ffffff;
+	--color-brand-dark: #2b7fff;
+	--color-secondary-dark: #000;
+}
+body {
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--color-pripary-dark);
+	text-decoration-line: none;
+}
+.button {
+	color: var(--color-pripary-light);
+	background-color: var(--color-brand-dark);
+	border-radius: 32px;
+	border: 2px solid var(--color-brand-dark);
+	cursor: pointer;
+	font-size: 18px;
+}
+.button:hover {
+	background-color: transparent;
+	color: var(--color-pripary-dark);
+}
+.text-section-one {
+	font-size: 12px;
+	color: var(--color-secondary-dark);
+}
+h2 {
+	font-family: 'Play';
+	font-size: 64px;
+	font-weight: 700;
+}
+.about-us-section .accent {
+	text-transform: capitalize;
+}
+.why-we-are-section {
+	font-size: 22px;
+}
+.hero-title {
+	text-transform: capitalize;
+	font-family: 'Play';
+	font-size: 140px;
+	font-weight: 700;
+}
+.link {
+	text-decoration-line: none;
+	color: var(--color-pripary-dark);
+}
+.link:hover {
+	font-weight: 700;
+	color: var(--color-brand-dark);
+}
+.accent {
+	color: var(--color-brand-dark);
+}
+footer {
+	color: var(--color-pripary-light);
+	background-color: var(--color-pripary-dark);
+	font-size: 16px;
+}
+.footer-link {
+	color: var(--color-pripary-light);
+	text-decoration: none;
+}
+.footer-link:hover {
+	color: var(--color-brand-dark);
+  font-weight: 700;
+}
